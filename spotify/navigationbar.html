@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gaana.com</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&family=Xanh+Mono&display=swap');
+
+        body {
+            background-color: antiquewhite;
+        }
+
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        nav {
+            font-family: 'Roboto Slab', serif;
+
+        }
+
+        nav ul {
+            display: flex;
+            list-style-type: none;
+            height: 60px;
+            background-color: black;
+            color: white;
+            padding: 10px;
+        }
+
+        nav ul li {
+            padding: 0 12px;
+        }
+
+        .red {
+            padding: 15px;
+        }
+
+        .brand img {
+            width: 75px;
+            padding: 5px;
+            color: green;
+        }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            font-weight: bolder;
+            font-size: 1.3rem;
+        }
+
+        .container {
+            min-height: 75vh;
+            background-color: black;
+            color: white;
+            font-family: 'Roboto Slab', serif;
+            display: flex;
+            width: 70%;
+            margin: 23px auto;
+            border-radius: 12px;
+            background-image: url('/images.jpg/bg.jpg');
+
+        }
+
+        .icons {
+            margin-top: 14px;
+        }
+
+        .icons i {
+            cursor: pointer;
+        }
+
+        #myProgressBar {
+            width: 80vw;
+
+        }
+
+        .songItem {
+            height: 50px;
+            display: flex;
+            background-color: white;
+            width: 88%;
+            color: black;
+            margin: 12px 0;
+            justify-content: space-between;
+            align-items: center;
+            background-repeat: 34px;
+            border-radius: 29px;
+            padding: 0px 5px;
+            margin: 14px;
+
+        }
+
+        .search {
+            padding: 13px;
+        }
+
+        .search text {
+            padding: 0 112px;
+        }
+
+
+        .songlist {
+            padding: 11px;
+        }
+
+        .songItem img {
+            height: 45px;
+            width: 61px;
+            margin: 0 34px;
+            border-radius: 34px;
+        }
+
+        .green {
+            margin: 99px;
+            margin: 31px;
+        }
+
+        .timestamp {
+            margin: 0 23px;
+        }
+
+        .timestamp i {
+            cursor: pointer;
+        }
+
+        footer {
+            background-color: black;
+            height: 130px;
+            position: sticky;
+        }
+
+        .yellow {
+            padding: 0 52px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="/images.jpg/spoti.png" alt="Googal">spotify</li>
+            <li class="red">Home</a></li>
+            <li class="red">About</a></li>
+            <div class="search">
+                <input class="yellow" type="text" placeholder="seach song here">
+                <button class="btn">search</button>
+            </div>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songlist">
+            <h1>Best of Songs</h1>
+            <div class="songItem">
+                <img src="/covers/1.jpg" alt="1" height="30px" width="70px">
+                <span class="green">After party <i class="fa-solid fa-2x fa-circle-play"></i></span>
+                <span class="Songlistplay"> <span class="timestamp">06:34</span></span>
+            </div>
+            <div class="songItem">
+                <img src="/covers/10.jpg" alt="1" height="30px" width="70px">
+                <span class="green">True Love<i class="fa-solid fa-2x fa-circle-play"></i></span>
+                <span class="Songlistplay"> <span class="timestamp">04:44</span></span>
+            </div>
+            <div class="songItem">
+                <img src="/covers/2.jpg" alt="1" height="30px" width="70px">
+                <span class="green">Trap <i class="fa-solid fa-2x fa-circle-play"></i></span>
+                <span class="Songlistplay"> <span class="timestamp">03:34</span></span>
+            </div>
+            <div class="songItem">
+                <img src="/covers/3.jpg" alt="1" height="30px" width="70px">
+                <span class="green">the maid <i class="fa-solid fa-2x fa-circle-play"></i></span>
+                <span class="Songlistplay"> <span class="timestamp">04:30</span></span>
+            </div>
+            <div class="songItem">
+                <img src="/covers/6.jpg" alt="1" height="30px" width="70px">
+                <span class="green">awaari<i class="fa-solid fa-2x fa-circle-play"></i></span>
+                <span class="Songlistplay"> <span class="timestamp">05:30</span></span>
+            </div>
+            <div class="songItem">
+                <img src="/covers/4.jpg" alt="1" height="30px" width="70px">
+                <span class="green">dj brabo <i class="fa-solid fa-2x fa-circle-play"></i></span>
+                <span class="Songlistplay"> <span class="timestamp">02:34</span></span>
+            </div>
+        </div>
+    <div class="free"></div>
+  
+    
+
+        <script src="https://kit.fontawesome.com/8363347e24.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
